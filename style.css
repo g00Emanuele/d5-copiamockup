@@ -1,0 +1,36 @@
+.custom-purple-bg {
+    background-color: #754FFE;
+}
+
+.custom-white {
+    color: white;
+}
+
+.custom-green {
+    background-color: #19CB98;
+}
+
+.custom-padding {
+    padding: 5%;
+}
+
+.custom-fs {
+    font-size: 2.5em;
+}
+
+.custom-border {
+    border: 0;
+}
+
+h5.card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.custom-avatar-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
