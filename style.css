@@ -34,3 +34,7 @@ h5.card-title {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.custom-grey {
+    color: grey;
+}
