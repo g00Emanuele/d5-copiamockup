@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/485dbfcf2f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <title>Web dev site</title>
@@ -79,22 +80,61 @@
                         </ul>
                     </li>
                 </ul>
-                <div class="">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/bell.png" class="rounded-circle bg-body-secondary" width="40" height="40"
-                            alt="">
-                    </a>
-                </div>
-                <div>
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/avatar-1.jpg" class="rounded-circle" width="40" height="40" alt="">
-                    </a>
-                </div>
+                    <div class="position-relative custom-item">
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/bell.png" class="rounded-circle bg-body-secondary" width="40" height="40"
+                                alt="">
+                        </a>
+                        <div class="position-absolute rounded-circle custom-notification-purple">
+    
+                        </div>
+                    </div>
+                    <div id="user-toggle" class="position-relative custom-item">
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/avatar-1.jpg" class="rounded-circle" width="40" height="40" alt="">
+                        </a>
+                        <div class="position-absolute rounded-circle custom-notification-green">
+    
+                        </div>
+    
+                        
+                    </div>
             </div>
         </div>
     </nav>
 
-    <header class="container-fluid custom-purple-bg">
+    <header class="container-fluid custom-purple-bg position-relative">
+        <!-- Card profilo a scomparsa -->
+    
+        <div id="profile" class="position-absolute d-none">
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex align-items-center">
+                        <img src="assets/avatar-1.jpg" class="rounded-circle" width="40" height="40" alt="">
+                        <div class="p-2">
+                            <span class="fw-semibold">Annette Black</span>
+                            <span class="custom-email">annette@geeksui.com</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center custom-border">
+                        <i class="fa-regular fa-user"></i>
+                        <span class="mx-2">Profile</span>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center custom-border">
+                        <i class="fa-regular fa-star"></i>
+                        <span class="mx-2">Subscription</span>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="mx-2">Settings</span>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <i class="fa-solid fa-power-off"></i>
+                        <span class="mx-2">Sign Out</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 custom-white d-flex justify-content-center align-items-center px-5">
@@ -651,7 +691,7 @@
             </div>
         </div>
     </main>
-    
+
     <footer class="container">
         <hr>
         <div class="row">
@@ -665,7 +705,7 @@
                 <span class="mx-3"><a class="text-decoration-none custom-grey" href="#">Support</a></span>
             </div>
         </div>
-      
+
     </footer>
 
 
@@ -721,7 +761,8 @@
 
 
 
-    <script src="bootstrap-5.3.0-dist/js/bootstrap.bundle.js"></script>
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.bundle.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript"></script>
 </body>
 
 </html>

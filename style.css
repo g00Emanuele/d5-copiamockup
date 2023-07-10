@@ -38,3 +38,43 @@ h5.card-title {
 .custom-grey {
     color: grey;
 }
+
+.custom-notification-green {
+    width: 10px;
+    z-index: 5;
+    height: 10px;
+    display: inline-block;
+    border: 1px solid white;
+    bottom: 9%;
+    right: 28%;
+    background-color: #19CB98;
+
+}
+
+.custom-notification-purple {
+    width: 10px;
+    z-index: 5;
+    height: 10px;
+    display: inline-block;
+    border: 1px solid white;
+    top: 0%;
+    right: 30%;
+    background-color: #754FFE;
+}
+
+#profile {
+    top: 1%;
+    right: 1%;
+}
+
+.custom-item {
+    width: fit-content;
+}
+
+.custom-email {
+    color: grey;
+}
+
+.custom-user-toggle {
+    left: 5%;
+}
